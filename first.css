@@ -1,0 +1,115 @@
+/* BODY  */
+body {
+  margin: 0;
+  background-image: url("xyz");
+  text-align: center;
+  /* font-family: "Roboto Mono", monospace; */
+}
+/* CONTAINERS SECTION */
+.parent {
+  display: inline;
+}
+.upper_box {
+  display: inline;
+  position: relative;
+  bottom: 70px;
+}
+.bottom_box {
+  position: relative;
+  top: 0px;
+  display: inline;
+
+}
+.linkcontainer {
+  padding: 50px 10px;
+}
+/*  IMAGES SECTION */
+.profilee {
+  background-color: yellow;
+  border-radius: 5cm;
+  display: inline;
+  width: 120px;
+  position: relative;
+  top: 120px;
+}
+.icon {
+  position: absolute;
+  left: 30px;
+  width: 30px;
+}
+
+/* OTHER SECTION */
+.gith {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+}
+.gith:hover {
+  color: #e2e2e2;
+}
+.title {
+  display: inline;
+  position: relative;
+  top: 80px;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+.name_down {
+  font-family: "Cinzel", serif;
+}
+.button-my {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  border: none;
+  display: block;
+  position: relative;
+  padding: 1% 25% 1% 25%;
+  margin: 20px 25px;
+}
+.button-my::before {
+  content: ''; 
+  background-color: rgb(37, 37, 37);
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.bottom-container {
+  height: 80px;
+  padding: 20px 0 0 0;
+  background-color: #363636;
+}
+
+
+.endcrd {
+  color: #eaf6f6;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0 ;
+  font-weight: 400;
+}
+.uppplusdown {
+ height: 100vh
+}
+.uppplusdown::before {
+  background-image: url("images/webwallpaper-II.jpg");
+  background-size: cover;
+  background-position: top center;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.2;
+}
