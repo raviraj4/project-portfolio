@@ -21,7 +21,8 @@ body {
 
 }
 .linkcontainer {
-  padding: 50px 10px;
+  padding: 150px 10px 50px 10px;
+  
 }
 /*  IMAGES SECTION */
 .profilee {
@@ -71,7 +72,7 @@ body {
   display: block;
   position: relative;
   padding: 1% 25% 1% 25%;
-  margin: 20px 25px;
+  margin: 25px 25px;
 }
 .button-my::before {
   content: ''; 
